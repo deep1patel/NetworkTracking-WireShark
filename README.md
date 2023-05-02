@@ -46,9 +46,10 @@ Next off you will be implementing the main method, which will open your captured
 If you wish to change the styling of the lines that will be drawn in Google Maps then it’s in the above code that you will be doing so under the tags <style></style>. In this tutorial I have just adjusted the line width and color but other style elements can be added like icons etc. (Just do a quick google search on how to create KML files for Google Maps)
 
 Next of we’re to add the method that will loop over our captured network data and extract the IP’s.
+![image](https://user-images.githubusercontent.com/54338389/235780646-2704b4ee-ec4f-4995-9213-4099799fa5dc.png)
 
 In the above method plotIPs(pcap) the application will loop over our pcap data and extract source and destination IP adresses of each captured network packet.
-![image](https://user-images.githubusercontent.com/54338389/235780646-2704b4ee-ec4f-4995-9213-4099799fa5dc.png)
+
 
 But our IP’s can’t be used alone as input to Google Maps, first we need to attach a Geo location. This will be done using the following method:
 ![image](https://user-images.githubusercontent.com/54338389/235780695-412b8f3f-b7d7-466b-a2ff-ea28306c8954.png)
