@@ -44,7 +44,6 @@ Next off you will be implementing the main method, which will open your captured
 
 
 If you wish to change the styling of the lines that will be drawn in Google Maps then it’s in the above code that you will be doing so under the tags <style></style>. In this tutorial I have just adjusted the line width and color but other style elements can be added like icons etc. (Just do a quick google search on how to create KML files for Google Maps)
-![image](https://user-images.githubusercontent.com/54338389/235780452-8d68bc1e-d21e-45f3-8c4d-63832493b7c4.png)
 
 Next of we’re to add the method that will loop over our captured network data and extract the IP’s.
 
